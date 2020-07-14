@@ -1,0 +1,90 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css";
+*{
+  box-sizing:border-box;
+}
+body{
+  background-color:#15132d;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.container{
+  background-color:#1b1839;
+  width:1000px;
+  max-width:100%;
+  padding:50px 100px;
+  position:relative;
+  border-radius:5px;
+}
+.form-outer{
+  color:white;
+}
+.form{
+  color:#c0c0c9;
+  margin:20px 0px;
+}
+.form-group{
+  display:flex;
+  margin:20px 0px;
+}
+.inp-sec{ 
+  margin-right:20px;
+}
+input[type="checkbox"]{
+  border:none;
+  padding:5px;
+  height:20px;
+  width:20px;
+}
+.inp-desc label{
+  line-height:10px;;
+}
+.inp-desc p{
+  line-height: 4px;
+  font-size: 13px;
+  color: rgba(255,255,255, 0.3);
+}
+.cross-btn{
+  position:absolute;
+  top:0;
+  right:0;
+  background:rgba(255, 255, 255, 0.12941);
+  height:30px;
+  width:30px;
+  border-radius:5px;
+  cursor:pointer;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.cross-btn i{
+  font-size:30px;
+  color:white;
+}
+.form-textarea{
+  margin:10px 0px;
+}
+.form-textarea textarea{
+  border:none;
+  outline:none;
+  background:#15132d;
+  border:1px solid white;
+  border-radius:5px;
+  box-shadow:0px 5px 10px rgba(0, 0, 0, 0.5);
+  padding:10px;
+  color:white;
+  font-size:14px;
+  font-family: monospace;
+  line-height: 30px;
+}
+.form-btn{
+  border:none;
+  outline:none;
+  margin:10px 0px;
+  padding:1rem 2rem;
+  background:#fd984c;
+  color:black;
+  border-radius:5px;
+  cursor:pointer;
+}
